@@ -1,0 +1,463 @@
+html {
+    scroll-behavior: smooth;
+    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0px;
+    background-color: #fafafa;
+    font-family: "Saira Condensed";
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.socialLink {
+    color: white;
+    font-weight: bolder;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 30px;
+    background-color: black;
+    color: #fafafa;
+    position: sticky;
+    top: -85px;
+    z-index: 2;
+    transition: top 0.3s ease;
+}
+
+.show {
+    top: 0px;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logoName {
+    font-family: "antonio";
+    font-size: 25px;
+    color: white;
+}
+
+.menuItem {
+    margin: 0px 80px 0px 80px;
+    font-family: "anton";
+    font-weight: 100;
+    color: #fafafa;
+}
+
+.photo {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.profile {
+    font-family: "anton";
+    font-weight: 100; 
+    color: #fafafa;   
+}
+
+.aboutMe {
+    display: flex;
+    padding: 40px 100px 0px 80px;
+    background-color: #151515;
+    color: #fafafa;
+    align-items: center;
+}
+
+.profilePhoto {
+    margin-right: 80px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.nametag {
+    display: flex;
+    align-items: center;
+}
+
+.linkedIn {
+    margin-right: 20px;
+    height: 40px;
+}
+
+.name {
+    font-family: "anton";
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.description {
+    text-align: justify;
+}
+
+.dataWrangling {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    padding: 0px 80px 0px 80px;
+    font-family: "anton";
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.itemLeft {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px 0px 80px;
+    position: relative;
+}
+
+.itemRight {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px 0px 80px;
+    position: relative;
+    left: 340px;
+}
+
+.stepLeft {
+    font-family: "Black Ops One";
+    font-size: 70px;
+    text-align: center;
+    color: #fafafa;
+    position: absolute;
+    right: 100px;
+    top: 40%;
+}
+
+.stepRight {
+    font-family: "Black Ops One";
+    font-size: 70px;
+    text-align: center;
+    color: #fafafa;
+    position: absolute;
+    left: -230px;
+    top: 40%;
+}
+
+.bgStepLeft {
+    background-color: #151515;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    right: 68px;
+    top: 41%;
+    z-index: -1;
+}
+
+.bgStepRight {
+    background-color: #151515;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    left: -260px;
+    top: 41%;
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.symbol {
+    margin-right: 20px;
+    font-size: 30px;
+    color: #151515;
+}
+
+.heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "anton";
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.explanation {
+    width: 70%;
+    text-align: justify;
+}
+
+.codeImage {
+    width: 70%;
+    border-radius: 10px;
+}
+
+.output {
+    font-weight: bold;
+}
+
+.outputImage {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.dataExploration {
+    background-color: #151515;
+    color: #fafafa;
+    margin-top: -30px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.symbolWhite {
+    margin-right: 20px;
+    font-size: 30px;
+    color: #fafafa;
+}
+
+.stepLeftWhite {
+    font-family: "Black Ops One";
+    font-size: 70px;
+    text-align: center;
+    color: #151515;
+    position: absolute;
+    right: 100px;
+    top: 40%;
+    z-index: 1;
+}
+
+.stepRightWhite {
+    font-family: "Black Ops One";
+    font-size: 70px;
+    text-align: center;
+    color: #151515;
+    position: absolute;
+    left: -230px;
+    top: 40%;
+    z-index: 1;
+}
+
+.bgStepLeftWhite {
+    width: 250px;
+    height: 250px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    position: absolute;
+    right: 68px;
+    top: 41%;
+}
+
+.bgStepRightWhite {
+    width: 250px;
+    height: 250px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    position: absolute;
+    left: -260px;
+    top: 40%;
+}
+
+.smallTable {
+    width: 25%;
+}
+
+.dataVisualization {
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-bottom: 80px;
+    background-color: #fafafa;
+    align-items: center;
+}
+
+.dashboard {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.dashDescription {
+    margin: 40px 150px 0px 150px;
+    text-align: justify;
+}
+
+.chatbox {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    font-weight: 400;
+    font-size: 100%;
+    z-index: 2;
+}
+
+.chatboxButton {
+    position: sticky;
+    bottom: 0px;
+    margin-left: auto;
+    text-align: right;
+    width: min-content;
+}
+
+.chatboxIcon {
+    height: 80px;
+    border-radius: 50%;
+    padding: 0px;
+    box-shadow: var(--secondaryBoxShadow);
+}
+
+.chatboxSupport {
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 350px;
+    z-index: 2;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    box-shadow: var(--primaryBoxShadow);
+    border-radius: 25px;
+}
+
+.chatboxSupport.active {
+    transform: translateY(-20px);
+    z-index: 1;
+    opacity: 1;
+}
+
+.chatboxHeader {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: var(--primaryBoxShadow);
+    position: sticky;
+    top: 0;
+}
+
+.chatboxImage {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.chatboxHeading {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 1.2rem;
+    color: #fafafa;
+}   
+
+.chatboxDescription {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: .9rem;
+    color: #fafafa;
+}
+
+.chatboxMessages {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: auto;
+    overflow-y: auto;
+    padding: 15px 20px;
+}
+
+.messagesItem {
+    background: white;
+    width: fit-content;
+    margin-top: 25px;
+    padding: 8px 12px;
+    max-width: 70%;
+}
+
+.visitor {
+    background-color: #505050;
+    margin-left: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fafafa;
+}
+
+.operator {
+    background-color: #101010;
+    margin-right: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #fafafa;
+}
+
+.chatboxFooter {
+    background-color: #fafafa;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: sticky;
+    bottom: 0;
+}
+
+.chatboxInput {
+    background-color: transparent;
+    width: 80%;
+    height: 100%;
+    border: none;
+}
+
+.chatboxSend {
+    background: transparent;
+    margin-right: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px 0px 80px;
+    background-color: #151515;
+    color: #fafafa;
+    
+}
+
+.footerItem {
+    display: flex;
+    align-items: center;
+}
+
+.footerLogo {
+    margin-right: 20px;   
+    font-size: 25px;
+    color: #fafafa;
+}
+
+.footerText {
+    color: #fafafa;
+}
